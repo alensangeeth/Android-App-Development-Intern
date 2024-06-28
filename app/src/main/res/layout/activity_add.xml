@@ -1,0 +1,68 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60px"
+    android:background="#A6E7C1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="60px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:textColor="@color/black"
+        android:textColorHint="#656666"
+        android:id="@+id/addet1"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="60px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#656666"
+        android:hint="Enter Description"
+        android:textColor="@color/black"
+        android:id="@+id/addet2"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prepared By"
+        android:textSize="60px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="#656666"
+        android:id="@+id/addet3"
+        android:hint="Enter Name"
+        android:background="#FFFFFF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textColor="@color/black"
+        android:layout_marginTop="30px"
+        android:id="@+id/addsub"
+        android:background="#2196F3"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:id="@+id/addbck"
+        android:text="MENU"
+        android:textColor="@color/black"
+        android:background="#2196F3"/>
+
+</LinearLayout>
